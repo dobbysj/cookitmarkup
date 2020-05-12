@@ -1,0 +1,185 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	word-break:break-all;
+	box-sizing: border-box;
+}
+
+dl, ul, ol, menu, li {
+    list-style: none;
+}
+
+a{
+	text-decoration:none;
+}
+
+body, input, textarea, select, button, table {
+    font-family: 'Noto Sans', '맑은 고딕', 'Malgun Gothic', Dotum, '굴림', arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #606060;
+    letter-spacing: -0.5px;
+}
+
+.wrap{
+	position: relative;
+    width: 100%;
+    height: 100%;	
+}
+
+#head{
+	width:100%;
+}
+
+#head .gnb_wrap{
+	min-width: 1260px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+#head .gnb_util{
+	min-width: 1260px;
+    height: 35px;
+    padding-top: 5px;
+    background-color: #202020;
+    text-align: left;
+}
+
+#head .gnb_util .util_wrap {
+    max-width: 1920px;
+    min-width: 1260px;
+    margin: 0 auto;
+}
+
+#head .gnb_util ul {
+    float: right;
+    padding-right: 40px;
+}
+
+#head .gnb_util li {
+    float: left;
+    padding-left: 24px;
+}
+
+#head .gnb_util li a{
+    color: #fff;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+#head .gnb_menu {
+    position: relative;
+    max-width: 1920px;
+    min-width: 1260px;
+    height: 81px;
+    margin: 0 auto;
+    padding-top: 24px;
+    text-align: center;
+}
+
+#head .gnb_menu {
+    position: relative;
+    max-width: 1920px;
+    min-width: 1260px;
+    height: 81px;
+    margin: 0 auto;
+    padding-top: 24px;
+    text-align: center;
+}
+
+#head .gnb_menu .logo {
+    position: absolute;
+    left: 40px;
+    top: 25px;
+}
+
+#head .gnb_menu .logo a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: url('../images/ico_set.png') -320px -385px no-repeat;
+    background-size: 800px 800px;
+}
+
+#head .list_gmenu {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+#head .list_gmenu li {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+#head .list_gmenu li a {
+    display: inline-block;
+    padding: 0 32px;
+    color: #101010;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+#head .my_gmenu {
+    position: absolute;
+    right: 40px;
+    top: 14px;
+}
+
+#head .my_gmenu ul {
+    float: right;
+}
+
+#head .my_gmenu li.g_od {
+    position: relative;
+}
+
+#head .my_gmenu li {
+    float: left;
+    margin-left: 20px;
+}
+
+#head .my_gmenu .g_od a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url('../images/ico_set.png') -584px -320px no-repeat;
+    background-size: 800px 800px;
+}
+
+#head .my_gmenu .g_nu a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url('../images/ico_set.png') -628px -319px no-repeat;
+    background-size: 800px 800px;
+}
+
+#head .my_gmenu li a .txt {
+    display: block;
+    margin-top: -2px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    color: #101010;
+    width: 50px;
+    padding-top: 30px;
+    margin-left: -9px;
+}
+
+
+/* footer */
+
+
+#footer {
+    position: relative;
+    z-index: 999;
+}

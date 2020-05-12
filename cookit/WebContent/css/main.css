@@ -1,0 +1,59 @@
+body.ma_body #content {
+    padding: 0 0;
+    min-height: 900px;
+}
+
+.ma_billboard {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.row_grid {
+    width: 1180px;
+    margin: 60px auto 0;
+}
+
+.ma_individ {
+    position: relative;
+    margin: 16px auto 0;
+    max-width: 1920px;
+    max-height: 520px;
+    overflow: hidden;
+}
+
+.ma_event {
+    max-width: 1920px;
+    height: 280px;
+    margin: 16px auto;
+    overflow: hidden;
+}
+
+.ma_best {
+    width: 1180px;
+    margin: 140px auto 0;
+}
+
+.ma_review {
+    position: relative;
+    max-width: 1920px;
+    max-height: 508px;
+    margin: 140px auto -60px;
+    overflow: hidden;
+}
+
+.ma_pd_wrap {
+    width: 1180px;
+    margin: 140px auto 0;
+}
+
+.ma_notice {
+    width: 100%;
+    min-width: 1260px;
+    height: 64px;
+    margin-top: 140px;
+    border-top: 1px solid #e0e0e0;
+}
